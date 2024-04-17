@@ -1,0 +1,45 @@
+.container{
+    width:650px;
+    margin: 50px auto;
+}
+.image{
+    position: relative;
+}
+.img1{
+    
+    width: 100%;
+    border-radius: 15px;
+    height: 400px;
+    object-fit: cover;
+    object-position: 17% 18%;
+}
+.head{
+    position: absolute;
+    top: 25%;
+    left: 125px;
+    font-weight: 900;
+    color: azure;
+    font-size: 16px;
+}
+.para{
+    position: absolute;
+    top: 40%;
+    left: 20px;
+    
+    color: azure;
+    font-size: 15px;
+}
+.btn{
+    background-color: azure;
+    color: black;
+    padding: 13px 30px;
+    border-radius: 35px;
+    border: none;
+    font-size: 14px;
+    width: 140px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
